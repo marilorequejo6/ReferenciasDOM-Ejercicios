@@ -1,0 +1,38 @@
+body{
+    font-family: Montserrat;
+    background-color: lightgray;
+}
+
+#parrafo1{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#div1{
+    color: lightcoral;
+    padding: 20px;
+}
+
+#lista1{
+    padding: 10px;
+    margin-left: 20px;
+    color: darkblue;
+}
+
+#boton1{
+    background-color: lightcoral;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: darkred;
+        color: white;
+        transform: translateY(-5px);
+    }
+}
+
