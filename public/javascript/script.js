@@ -1,5 +1,5 @@
-import {refParrafo1, refDiv1, refLista1, refBoton1, refTabla1, refColumna1, refPersona} from "/javascript/functions/references.js";
-
+import {refBoton1} from "/javascript/functions/references.js";
+/*
 // Ejercicio1: 
 console.log("Ejercicio1: ", refDiv1.previousElementSibling.textContent);
 
@@ -24,3 +24,16 @@ console.log("Ejercicio6: ", refTabla1.querySelector("#persona").textContent);
 
 // Ejercicio7:
 console.log("Ejercicio7: ", refDiv1.nextElementSibling.nextElementSibling.nextElementSibling.textContent);
+*/
+
+// Ejercicio1: Generar un texto al pulsar el botón
+refBoton1.addEventListener("click", () => {
+    // Creamos un elemento para introducir el mensaje
+    const refDiv1 = document.createElement("div");
+    refDiv1.innerHTML = "Buenas a todas";
+    refDiv1.className = "div-ejercicio-1"; 
+    // Añadimos el elemento con el mensaje al body
+    document.body.appendChild(refDiv1);
+});
+
+// Ejercicio2: 
