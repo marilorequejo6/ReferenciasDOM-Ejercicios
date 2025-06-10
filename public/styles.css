@@ -3,37 +3,13 @@ body{
     background-color: lightgray;
 }
 
-button {
-    background-color: lightcoral;
+p{
     color: black;
-    padding: 10px;
-    margin-left: 20px;
-    border-radius: 5px;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    &:hover{
-        background-color: darkred;
-        color: white;
-        transform: translateY(-5px);
-    }
+    font-size: 16px;
+    
 }
 
-.div-ejercicio-1{
-    margin: 10px;
-}
-
-#elemento1:hover, #elemento3:hover{
-    font-weight: 600;
-}
-
-img{
-    width: 20px;
-    height: 20px;
-    transition: all 0.3s ease;
-    &:hover{
-        transform: translateY(-5px);
-        width: 30px;
-        height: 30px;
-    }
+.parrafo2{
+    color: lightcoral;
+    font-size: 20px;
 }
