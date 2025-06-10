@@ -20,7 +20,7 @@ body{
     color: darkblue;
 } */
 
-#boton1{
+button {
     background-color: lightcoral;
     color: black;
     padding: 10px;
@@ -38,4 +38,19 @@ body{
 
 .div-ejercicio-1{
     margin: 10px;
+}
+
+#elemento1:hover, #elemento3:hover{
+    font-weight: 600;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+    &:hover{
+        transform: translateY(-5px);
+        width: 30px;
+        height: 30px;
+    }
 }
