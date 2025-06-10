@@ -13,3 +13,41 @@ p{
     color: lightcoral;
     font-size: 20px;
 }
+
+button{
+    margin: 5px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darkgreen;
+        color: white;
+        transform: translateY(-5px);
+    }
+}
+
+img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.lista-añadida{
+    color: darkblue;
+    font-size: 18px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 200px;
+}
